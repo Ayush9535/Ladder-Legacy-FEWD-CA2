@@ -57,7 +57,7 @@ At last, the score is displayed based on how many times you rolled the dice.
 
 # References :
 1. https://github.com/Abhi1147/snake-and-ladder-game/ 
-I have referred this github link to get a brief idea of the logic of the Game. Also I have used Some Assests from this Github like Dice Images, Snakes Images.
+I have referred this github link for some assests Dice Images, Snakes Images.
 
 2. I have Used Google to get background Image for my Game. 
 

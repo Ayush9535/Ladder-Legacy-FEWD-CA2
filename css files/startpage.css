@@ -111,7 +111,7 @@ button{
     width: 3.5vw;
     height: 3.5vw;
     border-radius: 50%;
-    /* cursor: pointer; */
+    cursor: pointer;
     box-shadow: 0 0 0 0 black;
     margin-top: 9px;
 }
@@ -159,7 +159,8 @@ button{
 
 .main-div{
     gap: 10vw;
-    margin-top: -70px;    
+    margin-top: -70px;
+    z-index: 1;    
 }
 
 .main-div h1{

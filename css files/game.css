@@ -258,6 +258,7 @@ button{
     }
     .quitbtndiv{
         margin-top: 5vw;
+        z-index: 1;
     }
     button{
         width: 20vw;
