@@ -99,41 +99,6 @@ function start(){
             document.getElementById(player1CurrentPosition.toString()).innerHTML += '<span id="player1-icon" class="icon"></span>'
             checkSamePosition(1)
 
-
-            // let oldPosition = player1CurrentPosition - diceNumber - 1;
-
-            // for (let i = oldPosition + 1; i <= player1CurrentPosition; i++) {
-            //     setTimeout(() => {
-            //         document.getElementById(i.toString()).innerHTML += '<span id="player1-icon" class="icon"></span>';
-            //         document.getElementById("player1-icon").style.backgroundColor = localStorage.getItem("player1color");
-                    
-            //         if (i > oldPosition + 1) {
-            //             document.getElementById((i - 1).toString()).innerHTML = `${i-1}`;
-            //         }
-                    
-            //     }, 500 * (i - oldPosition));
-                
-            // }
-                
-            // await new Promise(resolve => {
-            //     for (let i = oldPosition + 1; i <= player1CurrentPosition; i++) {
-            //             setTimeout(() => {
-            //                 document.getElementById(i.toString()).innerHTML += '<span id="player1-icon" class="icon"></span>';
-            //                 document.getElementById("player1-icon").style.backgroundColor = localStorage.getItem("player1color");
-            
-            //                 // Remove the icon from the previous position after moving
-            //                 if (i > oldPosition + 1) {
-            //                     document.getElementById((i - 1).toString()).innerHTML = `${i-1}`;
-            //                 }
-            
-            //                 // Remove the icon from the old position after the animation completes
-                            
-            //             }, 500 * (i - oldPosition));
-            //         }
-            //     resolve(); // Resolve the promise to indicate the completion of this step
-            // });
-                
-
             // checking win condition 
             if (player1CurrentPosition == 100){
                 var winSound = new Audio("./Audio files/Winning sound.mp3")
