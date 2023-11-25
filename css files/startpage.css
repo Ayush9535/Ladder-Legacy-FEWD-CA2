@@ -200,7 +200,7 @@ button{
     }
 }
 
-@media all and (min-width:300px) and (max-width:650px){
+@media all and (max-width:850px){
 
     body{
         font-family: 'Kavoon', sans-serif;
